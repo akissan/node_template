@@ -1,0 +1,27 @@
+{
+  "name": "akissan_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "launch": "pm2 start index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akissan/akissan_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akissan/akissan_website/issues"
+  },
+  "homepage": "https://github.com/akissan/akissan_website#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  }
+}
